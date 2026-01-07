@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Request a Free Energy Consultation | Powerfull Solar</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      padding: 40px;
+    }
+    .container {
+      max-width: 520px;
+      background: #ffffff;
+      padding: 30px;
+      margin: auto;
+      border-radius: 6px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+    }
+    .checkbox {
+      margin-top: 15px;
+      font-size: 13px;
+    }
+    .disclosure {
+      font-size: 12px;
+      color: #555;
+      margin-top: 10px;
+      line-height: 1.5;
+    }
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      background-color: #0a7cff;
+      color: #fff;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    button:disabled {
+      background-color: #aaa;
+      cursor: not-allowed;
+    }
+    .footer {
+      margin-top: 15px;
+      font-size: 12px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Request a Free Energy Consultation</h2>
+  <p><strong>Powerfull Solar</strong></p>
+
+  <form>
+    <label>Full Name</label>
+    <input type="text" required>
+
+    <label>Mobile Phone Number</label>
+    <input type="tel" placeholder="+1XXXXXXXXXX" required>
+
+    <label>Email Address</label>
+    <input type="email" required>
+
+    <div class="checkbox">
+      <input type="checkbox" id="smsConsent" required>
+      <label for="smsConsent">
+        I agree to receive SMS messages from <strong>Powerfull Solar</strong> related to my inquiry.
+        Message frequency varies. Reply <strong>STOP</strong> to opt out.
+      </label>
+    </div>
+
+    <div class="disclosure">
+      By submitting this form and checking the box above, you agree to receive SMS messages from
+      <strong>Powerfull Solar</strong> related to your inquiry, including energy audits, solar consultations,
+      scheduling, and follow-up communication. Message frequency varies. Message and data rates may apply.
+      <br><br>
+      View our
+      <a href="privacy-policy.html" target="_blank">Privacy Policy</a>
+      and
+      <a href="terms-of-service.html" target="_blank">Terms of Service</a>.
+    </div>
+
+    <button type="submit">Request Consultation & Agree to Receive SMS</button>
+  </form>
+
+  <div class="footer">
+    © Powerfull Solar
+  </div>
+</div>
+
+</body>
+</html>
